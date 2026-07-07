@@ -1,20 +1,29 @@
-# Wiki_ast
+# ¿Como funciona mi Wiki?
 
 ## Objetivo
 
-Wiki_ast reúne el material base sobre el Árbol de Sintaxis Abstracta (AST) para usarlo como apoyo en las diapositivas del proyecto.
+Wiki_JosAst Reune la ifnromacion y pasos para hacer funcionar un Windows Server 2025, el objetivo del mismo es mostrar y dejar claro a las personas como operar si nesecitan montar un servidor de windows, cuales son sus pasos y comandos.
 
-## ¿Qué es un AST?
+## ¿Qué es Windows 2025?
 
-Un AST es una representación en forma de árbol de la estructura lógica de un programa. No guarda detalles de formato como espacios, saltos de línea o paréntesis innecesarios; se enfoca en la sintaxis relevante.
+Windows 2025 no es una versión de escritorio como Windows 10 o 11, sino la nueva edición de Windows Server 2025, el sistema operativo empresarial de Microsoft diseñado para servidores. Está orientado a seguridad avanzada, integración con la nube híbrida (Azure), mejor rendimiento y soporte para cargas de trabajo con inteligencia artificial.
 
-## ¿Para qué sirve?
-
-- Analizar código fuente.
-- Construir compiladores e intérpretes.
-- Aplicar transformaciones automáticas.
-- Detectar errores o patrones en el código.
-- Generar documentación o visualizaciones.
+## 🚀 ¿Para qué se utiliza?
+-Administrar redes y usuarios
+-Control centralizado con Active Directory.
+-Gestión de permisos, autenticación y seguridad.
+-Ejecutar aplicaciones críticas
+-Hospedar bases de datos (SQL Server, Oracle).
+-Servir aplicaciones empresariales y web.
+-Virtualización y nube híbrida
+-Crear y administrar máquinas virtuales con Hyper-V.
+-Conectar servidores locales con servicios de Azure.
+-Alta disponibilidad y continuidad
+-Hotpatching: aplicar parches sin reiniciar.
+-Clústeres de conmutación por error para evitar caídas de servicio.
+-Soporte para inteligencia artificial y cargas modernas
+-Partición de GPU para IA en el perímetro.
+-Escalabilidad extrema (hasta 240 TB de RAM en VMs).
 
 ## Idea básica
 
