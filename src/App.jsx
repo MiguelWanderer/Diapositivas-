@@ -7,23 +7,23 @@ import './App.css'
 
 const slides = [
   {
-    title: 'Base',
-    subtitle: 'Qué es un AST y por qué importa',
+    title: '¿Por que creamos una Wiki?',
+    subtitle: 'La importancia de documentar y compartir conocimiento',
     body: slide01,
   },
   {
-    title: 'Nodos',
-    subtitle: 'Las piezas que forman el árbol',
+    title: 'Pasos que utilizamos para crear una guia propia de Windows server 2025',
+    subtitle: 'Los pasos que seguimos para crear una guía de Windows Server 2025',
     body: slide02,
   },
   {
-    title: 'Comparación',
-    subtitle: 'AST vs parse tree',
+    title: 'Reflexiones que encontramos en el camino',
+    subtitle: 'Reflexiones y aprendizajes que encontramos en el camino haciendo la Wiki',
     body: slide03,
   },
   {
     title: 'Aplicación',
-    subtitle: 'Uso del AST en herramientas reales',
+    subtitle: 'Uso reales para mi Wiki',
     body: slide04,
   },
 ]

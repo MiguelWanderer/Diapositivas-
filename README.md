@@ -1,16 +1,23 @@
-# React + Vite
+# Proyecto Diapositivas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto nace de una mezcla de ansiedad, cuatro latas de Monster y mis ganas de aprobar.  
+Es mi intento de subir la nota de la última calificación y demostrar que, aunque el camino ha sido difícil, la motivación y la perseverancia pueden transformar la presión en resultados.
 
-Currently, two official plugins are available:
+## Objetivo
+- Presentar las diapositivas como evidencia de esfuerzo y dedicación.
+- Convertir la ansiedad en energía creativa.
+- Usar cada línea de código y cada slide como un paso hacia la aprobación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Motivación
+Más que un simple repositorio, este proyecto es un recordatorio de que:
+- La ansiedad puede ser canalizada en algo productivo.
+- Cuatro Monster pueden dar el impulso necesario.
+- Las ganas de aprobar son la verdadera fuerza detrás de todo.
 
-## React Compiler
+## Estado
+🚧 **WIP (Work In Progress)**  
+El proyecto está en construcción, pero cada commit representa un avance hacia la meta.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*"Este repositorio no es solo código, es la historia de mi lucha por aprobar."*
