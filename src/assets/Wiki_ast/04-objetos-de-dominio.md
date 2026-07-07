@@ -1,25 +1,27 @@
-# Objetos de dominio
+# Cliente de Dominio (Paso C)
 
-## Propósito
+Este módulo documenta la creación de la **Unidad Organizativa (OU)**, los usuarios y el grupo dentro del dominio **inacap.local** para continuar con el laboratorio.
 
-Describir los objetos que conforman el dominio y cómo gestionarlos de forma eficiente.
+## Creación de OU, usuarios y grupo
 
-## Objetos principales
+1. **Abrir consola de Active Directory**  
+   - Desde *Administrador del servidor* → *Herramientas* → *Usuarios y equipos de Active Directory*.  
 
-- Usuarios.
-- Grupos.
-- Equipos.
-- Unidades organizativas.
+2. **Crear OU Ventas (J-Ventas)**  
+   - Click derecho en *inacap.local* → *Nuevo* → *Unidad organizativa* → Nombre: **Ventas**.  
 
-## Qué conviene administrar
+3. **Crear usuarios en la OU Ventas**  
+   - Click derecho en *Ventas* → *Nuevo* → *Usuario*.  
+   - Crear al menos 2 usuarios (ejemplo: **ATSJOS**).  
+   - Definir contraseña segura (la misma usada en todo el laboratorio).  
+   - Desmarcar la opción *El usuario debe cambiar la contraseña en el próximo inicio*.  
 
-- Permisos.
-- Estructura lógica.
-- Organización por áreas o perfiles.
-- Mantenimiento de grupos y pertenencia.
+4. **Crear grupo J-Ventas**  
+   - Click derecho en *Ventas* → *Nuevo* → *Grupo*.  
+   - Asignar nombre: **J-Ventas**.  
 
-## Resultado esperado
+5. **Agregar usuarios al grupo J-Ventas**  
+   - Desde cada cuenta de usuario → pestaña *Miembro de* → *Agregar* → incluir en **J-Ventas**.  
 
-Un dominio ordenado, fácil de administrar y preparado para escalar.
-
-![Objetos de dominio](/Diapositivas/4.png)
+## Cierre
+Con estos pasos, el dominio **inacap.local** ya cuenta con una estructura básica de OU, usuarios y grupos, lista para aplicar políticas y servicios de red en los siguientes módulos.
