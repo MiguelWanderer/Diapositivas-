@@ -20,4 +20,3 @@ Garantizar un entorno estable, seguro y listo para continuar con la administraci
 
 Un servidor funcional y ordenado como base para el resto de la infraestructura.
 
-![Instalación y configuración](/Diapositivas/2.png)
