@@ -21,3 +21,5 @@ Describir los objetos que conforman el dominio y cómo gestionarlos de forma efi
 ## Resultado esperado
 
 Un dominio ordenado, fácil de administrar y preparado para escalar.
+
+![Objetos de dominio](/Diapositivas/4.png)

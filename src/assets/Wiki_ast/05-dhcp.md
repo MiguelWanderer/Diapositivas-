@@ -18,3 +18,5 @@ Facilita una conectividad automática y ordenada dentro de la red empresarial.
 ## Resultado esperado
 
 Una red con distribución controlada y menos trabajo manual para los equipos clientes.
+
+![DHCP](/Diapositivas/5.png)

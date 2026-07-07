@@ -51,6 +51,7 @@ function escapeHtml(text) {
 
 function formatInline(text) {
   return escapeHtml(text)
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy" />')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
@@ -112,6 +113,16 @@ function markdownToHtml(markdown) {
     if (!trimmed) {
       flushParagraph()
       flushList()
+      continue
+    }
+
+    const imageMatch = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
+    if (imageMatch) {
+      flushParagraph()
+      flushList()
+      html.push(
+        `<figure class="slide-figure"><img src="${imageMatch[2]}" alt="${escapeHtml(imageMatch[1])}" loading="lazy" /></figure>`,
+      )
       continue
     }
 

@@ -18,3 +18,5 @@ Permite una correcta resolución de nombres y una administración centralizada d
 ## Resultado esperado
 
 Un dominio operativo con identidad, control y resolución de nombres consistentes.
+
+![Active Directory + DNS](/Diapositivas/3.png)

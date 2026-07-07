@@ -20,4 +20,6 @@ La documentación está dividida en nodos para que cada tema pueda leerse, actua
 
 Cada nodo desarrolla un bloque concreto del proceso de administración del servidor, desde la puesta en marcha inicial hasta las políticas centralizadas.
 
+![Inicio de la wiki](/Diapositivas/1.png)
+
 

@@ -154,6 +154,21 @@
   white-space: pre-wrap;
 }
 
+.slide-figure {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+
+.slide-figure img {
+  width: min(100%, 900px);
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.3);
+}
+
 .slide-content a {
   color: #7dd3fc;
 }
