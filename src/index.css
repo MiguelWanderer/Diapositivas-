@@ -1,0 +1,47 @@
+:root {
+  --text: #cbd5e1;
+  --text-h: #f8fafc;
+  --bg: #0b1020;
+  --border: rgba(255, 255, 255, 0.12);
+  --code-bg: rgba(148, 163, 184, 0.16);
+  --accent: #7dd3fc;
+  --accent-bg: rgba(125, 211, 252, 0.12);
+  --accent-border: rgba(125, 211, 252, 0.4);
+  --social-bg: rgba(255, 255, 255, 0.05);
+  --shadow:
+    rgba(0, 0, 0, 0.35) 0 18px 40px -16px, rgba(0, 0, 0, 0.2) 0 4px 12px -4px;
+
+  --sans: 'Segoe UI', Candara, 'Trebuchet MS', sans-serif;
+  --heading: 'Segoe UI', Candara, 'Trebuchet MS', sans-serif;
+  --mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(125, 211, 252, 0.35);
+  color: #f8fafc;
+}
