@@ -1,30 +1,42 @@
 import { useEffect, useMemo, useState } from 'react'
 import slide01 from './assets/Wiki_ast/01-base.md?raw'
-import slide02 from './assets/Wiki_ast/02-nodos.md?raw'
-import slide03 from './assets/Wiki_ast/03-ast-vs-parse-tree.md?raw'
-import slide04 from './assets/Wiki_ast/04-uso.md?raw'
+import slide02 from './assets/Wiki_ast/02-instalacion-y-configuracion.md?raw'
+import slide03 from './assets/Wiki_ast/03-active-directory-dns.md?raw'
+import slide04 from './assets/Wiki_ast/04-objetos-de-dominio.md?raw'
+import slide05 from './assets/Wiki_ast/05-dhcp.md?raw'
+import slide06 from './assets/Wiki_ast/06-gpos.md?raw'
 import './App.css'
 
 const slides = [
   {
-    title: '¿Por que creamos una Wiki?',
-    subtitle: 'La importancia de documentar y compartir conocimiento',
+    title: 'Wiki de Windows Server 2025',
+    subtitle: 'Base del proyecto y organización del contenido',
     body: slide01,
   },
   {
-    title: 'Pasos que utilizamos para crear una guia propia de Windows server 2025',
-    subtitle: 'Los pasos que seguimos para crear una guía de Windows Server 2025',
+    title: 'Instalación y configuración',
+    subtitle: 'Base estable y segura para comenzar',
     body: slide02,
   },
   {
-    title: 'Reflexiones que encontramos en el camino',
-    subtitle: 'Reflexiones y aprendizajes que encontramos en el camino haciendo la Wiki',
+    title: 'Active Directory + DNS',
+    subtitle: 'Dominio y resolución de nombres',
     body: slide03,
   },
   {
-    title: 'Aplicación',
-    subtitle: 'Uso reales para mi Wiki',
+    title: 'Objetos de dominio',
+    subtitle: 'Usuarios, grupos, equipos y OUs',
     body: slide04,
+  },
+  {
+    title: 'DHCP',
+    subtitle: 'Asignación dinámica de direcciones IP',
+    body: slide05,
+  },
+  {
+    title: 'Políticas de grupo (GPOs)',
+    subtitle: 'Control centralizado y estandarización',
+    body: slide06,
   },
 ]
 
@@ -185,7 +197,7 @@ function App() {
       <header className="presentation-topbar">
         <div>
           <p className="eyebrow">Wiki_ast</p>
-          <h1>Diapositivas base sobre AST</h1>
+          <h1>Wiki de Windows Server 2025</h1>
         </div>
         <p className="hint">Usa las flechas izquierda y derecha para navegar.</p>
       </header>
